@@ -29,6 +29,46 @@ import "./styles.css";
 
 // -------------------------------------------------------------
 
+//Problem Statement:
+// Find the first character in a string that does not repeat. If all characters repeat, return null.
+// Example:
+// Input: "swiss"
+// Output: "w"
+// Input: "aabbcc"
+// Output: null
+
+// What is a Hash Map?
+// A hash map is a data structure that stores key-value pairs. It allows:
+
+// Fast Lookups: Keys can be accessed in constant time,
+// 𝑂(1)
+// O(1), in most cases.
+// Key-Value Storage: Data is stored as a mapping of a key to a value.
+
+// function firstNonRepeatingChar(str) {
+//   const charFrequency = {};
+
+//   for (let char of str) {
+//     if (charFrequency[char]) {
+//       charFrequency[char]++;
+//     } else {
+//       charFrequency[char] = 1;
+//     }
+//   }
+
+//   for (let char of str) {
+//     if (charFrequency[char] === 1) {
+//       return char;
+//     }
+//   }
+
+//   return null;
+// }
+// console.log(firstNonRepeatingChar("aabbcd"));
+// console.log(firstNonRepeatingChar("aabbccdd"));
+// console.log(firstNonRepeatingChar("abcd"));
+
+// ------------------------------------------------
 Example: document.getElementById("app").innerHTML = `
 <h1>JavaScript Playground!</h1>
 `;
